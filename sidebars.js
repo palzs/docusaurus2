@@ -15,6 +15,11 @@
 const sidebars = {
   tutorialSidebar: [
     {
+      type: 'doc',
+      id: 'intro', // 文档 ID
+      label: '欢迎页', // 侧边栏标签
+    },
+    {
       type: 'category',
       label: '地理',
       link: {
