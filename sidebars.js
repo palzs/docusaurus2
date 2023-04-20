@@ -23,7 +23,7 @@ const sidebars = {
         description: '地理',
         keywords: ['geography'],
       },
-      items: ['人界','天界','狱界'],
+      items: ['地理/人界','地理/天界','地理/狱界'],
     },
     {
       type: 'category',
@@ -34,7 +34,7 @@ const sidebars = {
         description: '势力',
         keywords: ['group'],
       },
-      items: ['九州帝国','帝国联盟','贤者之塔','山脉同盟','精灵乡','天空之都','星蓝共和国'],
+      items: ['势力/九州帝国','势力/帝国联盟','势力/贤者之塔','势力/山脉同盟','势力/精灵乡','势力/天空之都','势力/星蓝共和国'],
     },
   ],
 };
