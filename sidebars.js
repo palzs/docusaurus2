@@ -16,14 +16,25 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: '测试',
+      label: '地理',
       link: {
         type: 'generated-index',
-        title: 'Docusaurus 教程',
-        description: '学习最重要的 Docusaurus 概念！',
-        keywords: ['guides'],
+        title: '地理',
+        description: '地理',
+        keywords: ['geography'],
       },
-      items: ['intro'],
+      items: ['人界','天界','狱界'],
+    },
+    {
+      type: 'category',
+      label: '势力',
+      link: {
+        type: 'generated-index',
+        title: '势力',
+        description: '势力',
+        keywords: ['group'],
+      },
+      items: ['九州帝国','帝国联盟','贤者之塔','山脉同盟','精灵乡','天空之都','星蓝共和国'],
     },
   ],
 };

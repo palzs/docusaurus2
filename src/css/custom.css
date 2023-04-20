@@ -17,6 +17,7 @@
   --ifm-navbar-background-color: #fafafa;
   --ifm-font-color-base: #555555;
   --ifm-code-font-size: 95%;
+  --prism-background-color: #f6f8fa
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -32,5 +33,6 @@
   --ifm-background-color: #1b1b1d;
   --ifm-navbar-background-color: #1b1b1d;
   --ifm-font-color-base: #999999;
+  --prism-background-color: #2b2928
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
