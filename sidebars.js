@@ -16,7 +16,13 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
+      label: '测试',
+      link: {
+        type: 'generated-index',
+        title: 'Docusaurus 教程',
+        description: '学习最重要的 Docusaurus 概念！',
+        slug: '/index',
+      },
       items: ['intro'],
     },
   ],
