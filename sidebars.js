@@ -21,6 +21,7 @@ const sidebars = {
         type: 'generated-index',
         title: 'Docusaurus 教程',
         description: '学习最重要的 Docusaurus 概念！',
+        keywords: ['guides'],
       },
       items: ['intro'],
     },
