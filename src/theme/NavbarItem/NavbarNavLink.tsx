@@ -10,7 +10,6 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import isInternalUrl from '@docusaurus/isInternalUrl';
 import {isRegexpStringMatch} from '@docusaurus/theme-common';
-import IconExternalLink from '@theme/Icon/ExternalLink';
 import type {Props} from '@theme/NavbarItem/NavbarNavLink';
 
 export default function NavbarNavLink({
@@ -38,11 +37,7 @@ export default function NavbarNavLink({
         children: (
           <>
             {label}
-            {isExternalLink && (
-              <IconExternalLink
-                {...(isDropdownLink && {width: 12, height: 12})}
-              />
-            )}
+            {isExternalLink}
           </>
         ),
       };
