@@ -17,7 +17,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'intro', // 文档 ID
-      label: '欢迎页', // 侧边栏标签
+      label: '首页', // 侧边栏标签
     },
     {
       type: 'category',
