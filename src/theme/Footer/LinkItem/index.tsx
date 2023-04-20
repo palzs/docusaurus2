@@ -30,7 +30,7 @@ export default function FooterLinkItem({item}: Props): JSX.Element {
           })}
       {...props}>
       {label}
-      {href && !isInternalUrl(href) && <IconExternalLink />}
+      {href && !isInternalUrl(href)}
     </Link>
   );
 }
