@@ -88,4 +88,12 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  themeConfig: {
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
+  },
+};
