@@ -11,6 +11,10 @@
   url('Questrial.ttf') format('truetype'), 
 } 
 
+.pagination-nav {
+  display: none;
+  }
+  
 :root {
   --ifm-color-primary: #896b29;
   --ifm-color-primary-dark: #7b6025;
