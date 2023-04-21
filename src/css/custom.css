@@ -5,6 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
+@font-face { 
+  font-family: 'Questrial';  
+  src: local('Questrial'), 
+  url('Questrial.ttf') format('truetype'), 
+} 
 :root {
   --ifm-color-primary: #896b29;
   --ifm-color-primary-dark: #7b6025;
