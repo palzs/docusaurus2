@@ -14,7 +14,7 @@
 .pagination-nav {
   display: none;
   }
-
+  
 :root {
   --ifm-color-primary: #896b29;
   --ifm-color-primary-dark: #7b6025;
@@ -24,11 +24,10 @@
   --ifm-color-primary-lighter: #9e7b2f;
   --ifm-color-primary-lightest: #a48031;
   --ifm-background-color: #fafafa;
-  --ifm-navbar-background-color: rgb(250, 250, 250,0);
+  --ifm-navbar-background-color: #fafafa;
   --ifm-font-color-base: #555555;
   --ifm-footer-background-color: #fafafa;
   --ifm-code-font-size: 95%;
-  --ifm-navbar-shadow: 0 0px 0px 0;
   --ifm-navbar-height: 4.5rem;
   --prism-background-color: #f6f8fa;
   --ifm-font-family-base: 'Questrial',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
