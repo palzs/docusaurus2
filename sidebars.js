@@ -28,7 +28,21 @@ const sidebars = {
         description: '地理',
         keywords: ['geography'],
       },
-      items: ['地理/人界','地理/天界','地理/狱界'],
+      items: [        
+              {
+                type: 'category',
+                label: '人界',
+                link: {
+                        type: 'doc', 
+                        id: '地理/人界/人界'},
+                items: [
+                        '地理/人界/九州大陆',
+                        '地理/人界/西方大陆',
+                        '地理/人界/封印大陆'
+                       ],
+              },
+              '地理/天界',
+              '地理/狱界'],
     },
     {
       type: 'category',
@@ -39,7 +53,13 @@ const sidebars = {
         description: '势力',
         keywords: ['group'],
       },
-      items: ['势力/九州帝国','势力/帝国联盟','势力/贤者之塔','势力/山脉同盟','势力/精灵乡','势力/天空之都','势力/星蓝共和国'],
+      items: ['势力/九州帝国',
+              '势力/帝国联盟',
+              '势力/贤者之塔',
+              '势力/山脉同盟',
+              '势力/精灵乡',
+              '势力/天空之都',
+              '势力/星蓝共和国'],
     },
     {
       type: 'category',
@@ -50,7 +70,10 @@ const sidebars = {
         description: '种族',
         keywords: ['species'],
       },
-      items: ['种族/人族','种族/妖族','种族/光灵族','种族/恶魔族'],
+      items: ['种族/人族',
+              '种族/妖族',
+              '种族/光灵族',
+              '种族/恶魔族'],
     },
     {
       type: 'category',
@@ -61,7 +84,12 @@ const sidebars = {
         description: '语言',
         keywords: ['language'],
       },
-      items: ['语言/通用语','语言/太古语','语言/九州语','语言/星蓝语','语言/光灵语','语言/炼狱语'],
+      items: ['语言/通用语',
+              '语言/太古语',
+              '语言/九州语',
+              '语言/星蓝语',
+              '语言/光灵语',
+              '语言/炼狱语'],
     },
     {
       type: 'category',
@@ -72,7 +100,9 @@ const sidebars = {
         description: '体系',
         keywords: ['system'],
       },
-      items: ['体系/修真体系','体系/魔法体系','体系/科学体系'],
+      items: ['体系/修真体系',
+              '体系/魔法体系',
+              '体系/科学体系'],
     },
     {
       type: 'category',
@@ -83,7 +113,9 @@ const sidebars = {
         description: '历史',
         keywords: ['history'],
       },
-      items: ['历史/原初世界史','历史/三界史','历史/新宇宙史'],
+      items: ['历史/原初世界史',
+              '历史/三界史',
+              '历史/新宇宙史'],
     },
     {
       type: 'category',
@@ -94,7 +126,10 @@ const sidebars = {
         description: '历法',
         keywords: ['calendar'],
       },
-      items: ['历法/人界通用历','历法/九州历','历法/光灵历','历法/炼狱历'],
+      items: ['历法/人界通用历',
+              '历法/九州历',
+              '历法/光灵历',
+              '历法/炼狱历'],
     },
     {
       type: 'category',
