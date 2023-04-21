@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 @font-face { 
   font-family: 'Questrial';  
-  src: local('../static/Questrial'), 
+  src: local('./static/Questrial'), 
   url('Questrial.ttf') format('truetype'), 
 } 
 :root {
