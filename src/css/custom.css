@@ -24,7 +24,7 @@
   --ifm-color-primary-lighter: #9e7b2f;
   --ifm-color-primary-lightest: #a48031;
   --ifm-background-color: #fafafa;
-  --ifm-navbar-background-color: #fafafa;
+  --ifm-navbar-background-color: rgb(250, 250, 250,0);
   --ifm-font-color-base: #555555;
   --ifm-footer-background-color: #fafafa;
   --ifm-code-font-size: 95%;
