@@ -28,6 +28,7 @@
   --ifm-font-color-base: #555555;
   --ifm-footer-background-color: #fafafa;
   --ifm-code-font-size: 95%;
+  --ifm-navbar-shadow: 0 0px 0px 0;
   --ifm-navbar-height: 4.5rem;
   --prism-background-color: #f6f8fa;
   --ifm-font-family-base: 'Questrial',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
