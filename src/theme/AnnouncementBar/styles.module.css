@@ -24,7 +24,7 @@
   box-shadow: var(--ifm-global-shadow-lw);
   z-index: calc(var(--ifm-z-index-fixed) + 1);
   */
-  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+  border-bottom: 0px solid var(--ifm-color-emphasis-100);
 }
 
 html[data-announcement-bar-initially-dismissed='true'] .announcementBar {
