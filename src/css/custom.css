@@ -10,6 +10,7 @@
   src: local('Questrial'), 
   url('Questrial.ttf') format('truetype'), 
 } 
+
 :root {
   --ifm-color-primary: #896b29;
   --ifm-color-primary-dark: #7b6025;
@@ -24,6 +25,7 @@
   --ifm-footer-background-color: #fafafa;
   --ifm-code-font-size: 95%;
   --prism-background-color: #f6f8fa
+  --ifm-font-family-base: 'Questrial',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
