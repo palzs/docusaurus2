@@ -10,6 +10,8 @@
   src: local('../../static/Questrial') format("truetype");
 } 
 
+@import url('https://fonts.font.im/css?family=Questrial');
+
 body{
   font-family:'Questrial',sans-serif;
 }
