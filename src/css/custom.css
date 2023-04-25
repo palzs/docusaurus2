@@ -7,8 +7,7 @@
 /* You can override the default Infima variables here. */
 @font-face { 
   font-family: 'Questrial';  
-  src: local('Questrial'), 
-  url('Questrial.ttf') format('truetype'), 
+  src: local('Questrial') format('truetype'), 
 } 
 
 .pagination-nav {
