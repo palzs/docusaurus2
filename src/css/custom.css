@@ -10,6 +10,10 @@
   src: local('../../static/Questrial') format('truetype');
 } 
 
+body{
+  font-family:'Questrial',sans-serif;
+}
+
 .pagination-nav {
   display: none;
   }
