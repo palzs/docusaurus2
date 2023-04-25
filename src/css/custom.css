@@ -7,12 +7,8 @@
 /* You can override the default Infima variables here. */
 @font-face { 
   font-family: 'Questrial';  
-  src: local('Questrial') format('truetype');
+  src: local('/static/Questrial') format('truetype');
 } 
-base {
-  font-weight: normal;
-  font-style: normal;
-  }
 
 .pagination-nav {
   display: none;
