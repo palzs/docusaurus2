@@ -113,7 +113,7 @@ const sidebars = {
         description: '历史',
         keywords: ['history'],
       },
-      items: ['历史/原初世界史',
+      items: ['历史/第一世界史',
               '历史/三界史',
               '历史/新宇宙史'],
     },
