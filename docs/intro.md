@@ -3,5 +3,5 @@ sidebar_position: 1
 slug: /
 ---
 
-# Palzs WIKI
+# A personal world wikipedia
 
