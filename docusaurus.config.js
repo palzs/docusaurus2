@@ -69,13 +69,18 @@ const config = {
             label: 'Drive',
             position: 'right',
           },
+          {
+            href: 'https://video.palzs.site/',
+            label: 'Video',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'light',
         links: [
         ],
-        copyright: `God's in his heaven, all's right with the world.`,
+        copyright: `All those moments will be lost in time,like tears in rain.`,
       },
       prism: {
         theme: lightCodeTheme,
